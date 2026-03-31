@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Media Objects Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+
+  <h2 class="mb-4 text-primary">Media Objects Demo</h2>
+
+  <!-- 🧑 Basic Media Object -->
+  <div class="media border p-3 mb-4">
+    <img src="https://via.placeholder.com/60" class="mr-3 mt-3 rounded-circle">
+    <div class="media-body">
+      <h5>John Doe <small><i>Posted Today</i></small></h5>
+      <p>This is a basic media object example.</p>
+    </div>
+  </div>
+
+  <!-- 🔄 Right Aligned Media -->
+  <div class="media border p-3 mb-4">
+    <div class="media-body">
+      <h5>Jane Doe</h5>
+      <p>Image aligned to the right.</p>
+    </div>
+    <img src="https://via.placeholder.com/60" class="ml-3 mt-3 rounded">
+  </div>
+
+  <!-- 🔽 Alignment Examples -->
+  <h5>Alignment Examples</h5>
+
+  <!-- Top -->
+  <div class="media border p-3 mb-3">
+    <img src="https://via.placeholder.com/60" class="align-self-start mr-3">
+    <div class="media-body">
+      <h5>Top Align</h5>
+      <p>Aligned to top.</p>
+    </div>
+  </div>
+
+  <!-- Center -->
+  <div class="media border p-3 mb-3">
+    <img src="https://via.placeholder.com/60" class="align-self-center mr-3">
+    <div class="media-body">
+      <h5>Center Align</h5>
+      <p>Aligned to center.</p>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="media border p-3 mb-4">
+    <img src="https://via.placeholder.com/60" class="align-self-end mr-3">
+    <div class="media-body">
+      <h5>Bottom Align</h5>
+      <p>Aligned to bottom.</p>
+    </div>
+  </div>
+
+  <!-- 💬 Nested Media (Comments Style) -->
+  <h5>Nested Comments</h5>
+
+  <div class="media border p-3">
+    <img src="https://via.placeholder.com/60" class="mr-3 mt-3 rounded-circle">
+    
+    <div class="media-body">
+      <h5>Main User</h5>
+      <p>This is a main comment.</p>
+
+      <!-- Nested -->
+      <div class="media mt-4">
+        <img src="https://via.placeholder.com/45" class="mr-3 mt-3 rounded-circle">
+        <div class="media-body">
+          <h6>Reply User</h6>
+          <p>This is a reply comment.</p>
+        </div>
+      </div>
+
+      <!-- Nested 2 -->
+      <div class="media mt-4">
+        <img src="https://via.placeholder.com/45" class="mr-3 mt-3 rounded-circle">
+        <div class="media-body">
+          <h6>Another Reply</h6>
+          <p>Another nested comment.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
